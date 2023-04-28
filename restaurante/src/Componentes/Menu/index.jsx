@@ -4,16 +4,53 @@ import styles from './Menu.module.css';
 
 import Prato from '../Prato';
 
-function Menu({pratos}) {
-  return (
-    <div>
-         {pratos.map((prato) => (
-					<div key={prato.id}>
-						 <Prato prato={prato}/>
-                    </div>
-				))}
-    </div>
-  )
+import { useState } from 'react'
+
+import { massas } from '../../../data/massas';
+
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+
+const responsive = {
+    superLargeDesktop: {
+        // the naming can be any, depends on you.
+        breakpoint: { max: 4000, min: 3000 },
+        items: 5
+    },
+    desktop: {
+        breakpoint: { max: 3000, min: 1024 },
+        items: 4
+    },
+    tablet: {
+        breakpoint: { max: 1024, min: 464 },
+        items: 2
+    },
+    mobile: {
+        breakpoint: { max: 464, min: 0 },
+        items: 1
+    }
+};
+
+function Menu() {
+
+    const [massasData] = useState(massas)
+
+    return (
+        <>
+            <div className={styles.categoria_titulo}>
+                <h2>Massas Artesanais</h2>
+            </div>
+            
+            <Carousel responsive={responsive} infinite={true}>
+                {massasData.map((prato) => (
+
+                    <Prato key={prato.id} prato={prato} />
+
+                ))}
+            </Carousel>
+
+        </>
+    )
 }
 
 export default Menu

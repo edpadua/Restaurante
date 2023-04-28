@@ -11,11 +11,11 @@ function App() {
 
   return (
     <>
-      <div>
-        <Cabecalho/>
-        <Outlet />
-        <Rodape/>
-      </div>
+      
+        <Cabecalho />
+          <Outlet />
+        <Rodape />
+      
 
     </>
   )

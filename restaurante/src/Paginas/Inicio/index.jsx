@@ -1,22 +1,26 @@
 import React from 'react'
 
-import { useState } from 'react'
-
 import styles from './Inicio.module.css'
 
-import { data } from '../../../data'
+import { massas } from '../../../data/massas'
 
 import Menu from '../../Componentes/Menu'
 
+import Banner from '../../Componentes/Banner'
+
 function Inicio() {
 
-  const [pratos] = useState(data)
 
-  return (
-    <div>
-      <Menu pratos={pratos}/>
-    </div>
-  )
+
+    return (
+        <>
+            <Banner />
+            <div className="container espaco">
+                <Menu />
+            </div>
+
+        </>
+    )
 }
 
 export default Inicio

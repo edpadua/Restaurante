@@ -1,0 +1,51 @@
+export const massas = [
+	{
+		title: 'Espaguete',
+		img: '/Images/Espaguete2.jpg',
+		description: 'Clássico da culinária italiana com berinjela, um toque de pimenta dedo-de-moça e manjericão em um rico molho de tomate, finalizado com parmesão',
+		price: '20',
+		type: 'massa',
+		id: 1,
+	},
+	{
+		title: 'Talharim',
+		img: '/Images/Talharim1.jpg',
+		description: 'Massa tipo talharim com parmesão, ovos, tiras de bacon e um leve toque de molho branco.',
+		price: '20',
+		type: 'massa',
+		id: 2,
+	},
+	{
+		title: 'Penne ao Pesto Genovês',
+		img: '/Images/Penne2.jpg',
+		description: 'Pesto de amêndoas e manjericão finalizado com tomate-cereja e parmesão',
+		price: '54',
+		type: 'massa',
+		id: 3,
+	},
+    {
+		title: 'Capelete de Carne',
+		img: '/Images/Capeleti1.jpg',
+		description: 'Massa fresca recheada com carne ao brodo de carne',
+		price: '20',
+		type: 'massa',
+		id: 4,
+	},
+	{
+		title: 'Ravioli',
+		img: '/Images/Ravioli1.jpg',
+		description: 'Massa tipo ravioli integral, recheada com muçarela de búfala ao molho de tomates, manjericão e azeite.',
+		price: '20',
+		type: 'massa',
+		id: 5,
+	},
+	{
+		title: 'Lasanha',
+		img: '/Images/Lasanha2.jpg',
+		description: 'Recheada com ragu de carne bovina e suína, molho de tomate, bechamel, parmesão e mozzarella',
+		price: '50',
+		type: 'massa',
+		id: 6,
+	},
+	
+];

@@ -1,0 +1,48 @@
+.prato {
+    /*width: 22%;*/
+
+    color: var(--preto);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 30px;
+    padding-bottom: 50px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    transition: all .25s cubic-bezier(.25,.46,.45,.94) 0s!important;
+}
+
+.prato:hover{
+    transform: scale(1.05);
+}
+
+.imagem{
+    width: 100%;
+}
+
+.imagem img{
+    width: 100%;
+}
+
+.titulo{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 5%;
+}
+
+.descricao{
+    text-align: center;
+    font-weight: 400;
+    font-size:18px;
+    padding-bottom: 10px;
+    margin-left: 9%;
+    margin-right: 9%;
+}
+
+.price{
+    font-weight: 600;
+    font-size: 25px;
+    color:var(--verde);
+}

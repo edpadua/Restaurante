@@ -1,10 +1,19 @@
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 :root {
-  --cor-principal:#914020;
-  --preto:#000000;
+  --cor-principal: #811907;
+  --verde: #09664a;
+  --preto: #000000;
   --branco: #FFFFFF;
   line-height: 1.5;
-  font-weight: 400;
-
+  
+  --font-principal: 'Fira Sans', sans-serif;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
@@ -21,11 +30,13 @@ a {
   color: #646cff;
   text-decoration: inherit;
 }
+
 a:hover {
   color: #535bf2;
 }
 
 body {
+  font-family: var(--font-principal);
   margin: 0;
   display: flex;
   place-items: center;
@@ -49,9 +60,11 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
   border-color: #646cff;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
@@ -62,10 +75,23 @@ button:focus-visible {
     color: #213547;
     background-color: #ffffff;
   }
+
   a:hover {
     color: #747bff;
   }
+
   button {
     background-color: #f9f9f9;
   }
+}
+
+
+.container {
+
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.espaco{
+  padding-top: 60px;
 }
