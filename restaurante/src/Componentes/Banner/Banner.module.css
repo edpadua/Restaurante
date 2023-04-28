@@ -1,3 +1,18 @@
 .banner{
     height: 700px;
 }
+
+.banner_title{
+    position: relative;
+    color: var(--branco);
+    font-size: 60px;
+    top: 300px;
+    z-index: 3;
+    text-align: left;
+    padding-left: 7%;
+    
+}
+
+.banner_title h2{
+    margin-top: 0px;
+}

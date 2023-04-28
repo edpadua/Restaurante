@@ -26,17 +26,39 @@ const responsive = {
 };
 
 function Banner() {
-  return (
-    <div>
-       <Carousel responsive={responsive} >
+    return (
+        <div>
+            <Carousel responsive={responsive}
+                infinite={true}
+                autoPlay={false}
+                autoPlaySpeed={1000}
+                showDots={true}
+                customTransition="all .5"
+            >
 
-          <div className={styles.banner}>
-              <img src="/Images/Nhoque.jpg"></img>  
-          </div>      
-        </Carousel>
+                <div className={styles.banner}>
+                <div className={styles.banner_title}>
+                        <h2>Melhores Pratos</h2>
+                    </div>
+                    <img src="/Images/Nhoque.jpg"></img>
+                  
+                </div>
+                <div className={styles.banner}>
+                <div className={styles.banner_title}>
+                        <h2>Melhores Pratos</h2>
+                    </div>
+                    <img src="/Images/Espaguete3.jpg"></img>
+                </div>
+                <div className={styles.banner}>
+                <div className={styles.banner_title}>
+                        <h2>Melhores Pratos</h2>
+                    </div>
+                    <img src="/Images/Penne3.jpg"></img>
+                </div>
+            </Carousel>
 
-    </div>
-  )
+        </div>
+    )
 }
 
 export default Banner
