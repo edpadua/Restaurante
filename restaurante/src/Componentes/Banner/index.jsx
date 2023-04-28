@@ -37,20 +37,20 @@ function Banner() {
             >
 
                 <div className={styles.banner}>
-                <div className={styles.banner_title}>
+                    <div className={styles.banner_title}>
                         <h2>Melhores Pratos</h2>
                     </div>
                     <img src="/Images/Nhoque.jpg"></img>
-                  
+
                 </div>
                 <div className={styles.banner}>
-                <div className={styles.banner_title}>
+                    <div className={styles.banner_title}>
                         <h2>Melhores Pratos</h2>
                     </div>
                     <img src="/Images/Espaguete3.jpg"></img>
                 </div>
                 <div className={styles.banner}>
-                <div className={styles.banner_title}>
+                    <div className={styles.banner_title}>
                         <h2>Melhores Pratos</h2>
                     </div>
                     <img src="/Images/Penne3.jpg"></img>
