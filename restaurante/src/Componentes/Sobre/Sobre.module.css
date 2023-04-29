@@ -1,24 +1,40 @@
 .sobre{
     display: flex;
+    flex-wrap: wrap;
     padding-bottom: 80px;
 }
 
 .sobre_imagem{
     display: flex;
-    width: 45%;
+    width: 48%;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
+    margin-right: 2%;
 }
 
 .sobre_texto{
     display: flex;
-    width: 50%;
+    width: 48%;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
+    margin-left: 2%;
     text-align: left;
     font-size: 18px;
+}
+
+@media (max-width: 767px) {
+    .sobre_texto{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .sobre_imagem{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        padding-bottom: 30px;
+    }
 }
