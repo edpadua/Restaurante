@@ -33,10 +33,10 @@ function Banner() {
                 autoPlay={false}
                 autoPlaySpeed={1000}
                 showDots={true}
-                customTransition="all .5"
+                
             >
 
-                <div className={styles.banner} style={{ backgroundImage: `url("/Images/Nhoque.jpg")`}}>
+                <div className={styles.banner} style={{ backgroundImage: `url("/Images/Ravioli3.jpg")`}}>
                     <div className={styles.banner_title}>
                         <h2>Melhores Pratos</h2>
                     </div>

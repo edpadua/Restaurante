@@ -8,6 +8,8 @@ import Menu from '../../Componentes/Menu'
 
 import Banner from '../../Componentes/Banner'
 
+import Sobre from '../../Componentes/Sobre'
+
 function Inicio() {
 
 
@@ -15,7 +17,13 @@ function Inicio() {
     return (
         <>
             <Banner />
-            <div className="container espaco">
+
+            <section className={styles.secao_sobre}>
+                <div className="container">
+                    <Sobre />
+                </div>
+            </section>
+            <div className="container">
                 <Menu />
             </div>
 

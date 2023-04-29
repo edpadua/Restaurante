@@ -8,6 +8,8 @@ import { useState } from 'react'
 
 import { massas } from '../../../data/massas';
 
+import { saladas } from '../../../data/saladas';
+
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
@@ -35,14 +37,28 @@ function Menu() {
 
     const [massasData] = useState(massas)
 
+    const [saladasData] = useState(saladas)
+
     return (
         <>
-            <div className={styles.categoria_titulo}>
+            <div className="categoria_titulo">
                 <h2>Massas Artesanais</h2>
             </div>
             
             <Carousel responsive={responsive} infinite={true}>
                 {massasData.map((prato) => (
+
+                    <Prato key={prato.id} prato={prato} />
+
+                ))}
+            </Carousel>
+
+            <div className="categoria_titulo">
+                <h2>Saladas</h2>
+            </div>
+
+            <Carousel responsive={responsive} infinite={true}>
+                {saladasData.map((prato) => (
 
                     <Prato key={prato.id} prato={prato} />
 

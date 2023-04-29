@@ -1,0 +1,24 @@
+.sobre{
+    display: flex;
+    padding-bottom: 80px;
+}
+
+.sobre_imagem{
+    display: flex;
+    width: 45%;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.sobre_texto{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    text-align: left;
+    font-size: 18px;
+}

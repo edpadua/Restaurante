@@ -11,6 +11,7 @@
   --verde: #09664a;
   --preto: #000000;
   --branco: #FFFFFF;
+  --cinza_claro: #f7f7f7c7;
   line-height: 1.5;
   
   --font-principal: 'Fira Sans', sans-serif;
@@ -94,4 +95,15 @@ button:focus-visible {
 
 .espaco{
   padding-top: 60px;
+}
+
+.categoria_titulo{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-size: 22px;
+  
+}
+
+.categoria_titulo h2{
+  font-weight: 600;
 }
