@@ -6,3 +6,9 @@
 .secao_menu{
     padding-bottom: 40px;
 }
+
+
+.secao_contato{
+    background-color: var(--cinza_claro);
+    padding-bottom: 40px;
+}

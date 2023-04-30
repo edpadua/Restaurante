@@ -39,19 +39,21 @@ function Banner() {
                 <div className={styles.banner} style={{ backgroundImage: `url("/Images/Ravioli3.jpg")`}}>
                     <div className={styles.banner_title}>
                         <h2>Melhores Pratos</h2>
+                        <button>Saiba Mais</button>
                     </div>
-                   
+                    
+                    
 
                 </div>
                 <div className={styles.banner} style={{ backgroundImage: `url("/Images/Espaguete3.jpg")`}}>
                     <div className={styles.banner_title}>
-                        <h2>Melhores Pratos</h2>
+                        <h2>O Restaurante</h2>
                     </div>
                     
                 </div>
                 <div className={styles.banner} style={{ backgroundImage: `url("/Images/Penne3.jpg")`}}>
                     <div className={styles.banner_title}>
-                        <h2>Melhores Pratos</h2>
+                        <h2>Reserve o Seu Lugar</h2>
                     </div>
                     
                 </div>

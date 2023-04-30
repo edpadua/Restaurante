@@ -9,6 +9,7 @@
 :root {
   --cor-principal: #811907;
   --verde: #09664a;
+  --verde_hover:#064734;
   --preto: #000000;
   --branco: #FFFFFF;
   --cinza_claro: #f7f7f7c7;
@@ -62,9 +63,7 @@ button {
   transition: border-color 0.25s;
 }
 
-button:hover {
-  border-color: #646cff;
-}
+
 
 button:focus,
 button:focus-visible {
