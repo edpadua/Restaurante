@@ -23,9 +23,11 @@ function Inicio() {
                     <Sobre />
                 </div>
             </section>
-            <div className="container">
-                <Menu />
-            </div>
+            <section className={styles.secao_menu}>
+                <div className="container">
+                    <Menu />
+                </div>
+            </section>
 
         </>
     )
