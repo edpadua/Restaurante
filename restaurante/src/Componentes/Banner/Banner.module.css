@@ -19,6 +19,16 @@
     
 }
 
+@media (max-width: 600px) {
+    .banner_title{
+       
+        font-size: 40px;
+       
+        
+    }
+    
+}
+
 .banner_title h2{
     margin-top: 0px;
 }

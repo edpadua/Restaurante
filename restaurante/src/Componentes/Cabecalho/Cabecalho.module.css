@@ -6,7 +6,6 @@
   -webkit-box-pack: end;
   justify-content: flex-end;
   left: 0px;
-  padding: 0px 1em;
   position: fixed;
   right: 0px;
   top: 0px;
@@ -17,7 +16,7 @@
 
 .navbar {
 
- 
+  color: var(--branco);
   left: 0px;
   right: 0px;
   transition: all 0.2s ease-in-out 0s;
@@ -42,19 +41,25 @@
 }
 
 
-.navbar_container a {
+.navbar a {
   text-decoration: none;
-  color: #ffffff;
+  color: var(--branco);
   transition: 0.6s;
 }
 
-.navbar_container a:hover {
-  color: #0c0c41;
+.navbar a:hover {
+  color: var(--verde);
 }
 
 
 .navegation_menu{
   align-items: center;
+}
+
+@media (max-width: 600px) {
+  .navegation_menu{
+     display: none;
+  }
 }
 
 .navegation_menu ul {
@@ -74,4 +79,36 @@
   text-decoration: none;
   display: block;
   width: 100%;
+}
+
+.menu_icon{
+    display: none;
+}
+
+
+@media (max-width: 600px) {
+  .menu_icon {
+    display: block;
+    cursor: pointer;
+  }
+}
+
+.navegation_menu_mobile{
+  display: none;
+}
+
+.item_menu_mobile{
+  list-style: none;
+  line-height: 2.5em;
+}
+
+@media (max-width: 600px) {
+  .navegation_menu_mobile{
+     margin-top: 65px;
+     position: absolute;
+     display: block;
+     z-index: 9;
+     width: 100%;
+     background-color: var(--cor-principal);
+  }
 }
