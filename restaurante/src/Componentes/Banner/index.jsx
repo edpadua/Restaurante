@@ -5,6 +5,8 @@ import styles from './Banner.module.css';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
+import { HashLink } from 'react-router-hash-link';
+
 const responsive = {
     superLargeDesktop: {
         // the naming can be any, depends on you.
@@ -39,7 +41,7 @@ function Banner() {
                 <div className={styles.banner} style={{ backgroundImage: `url("/Images/Ravioli3.jpg")`}}>
                     <div className={styles.banner_title}>
                         <h2>Melhores Pratos</h2>
-                        <button>Saiba Mais</button>
+                        <HashLink smooth to="/#menu"><button>Saiba Mais</button></HashLink>
                     </div>
                     
                     
@@ -48,12 +50,14 @@ function Banner() {
                 <div className={styles.banner} style={{ backgroundImage: `url("/Images/Espaguete3.jpg")`}}>
                     <div className={styles.banner_title}>
                         <h2>O Restaurante</h2>
+                        <HashLink smooth to="/#sobre"><button>Saiba Mais</button></HashLink>
                     </div>
                     
                 </div>
                 <div className={styles.banner} style={{ backgroundImage: `url("/Images/Penne3.jpg")`}}>
                     <div className={styles.banner_title}>
                         <h2>Reserve o Seu Lugar</h2>
+                        <HashLink smooth to="/#contato"><button>Saiba Mais</button></HashLink>
                     </div>
                     
                 </div>

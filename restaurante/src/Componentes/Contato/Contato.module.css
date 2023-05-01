@@ -27,6 +27,7 @@
         width: 100%;
         margin-left: 0;
         margin-right: 0;
+        padding-bottom: 30px;
     }
 }
 
@@ -35,6 +36,29 @@
         width: 100%;
         margin-left: 0;
         margin-right: 0;
-        padding-bottom: 30px;
+        
     }
+}
+
+.contato_info{
+    color:var(--verde);
+}
+
+.contato_item_lista{
+   list-style: none;
+   display: flex;
+   padding-bottom: 20px;
+}
+
+.contato_item_lista a{
+    color:var(--verde);
+}
+
+.contato_item_lista a:hover{
+    color:var(--verde_hover);
+}
+
+.contato_item_lista_texto{
+    padding-left: 2%;
+    font-weight: 600;
 }

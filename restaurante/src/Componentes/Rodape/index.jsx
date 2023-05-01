@@ -11,7 +11,7 @@ function Rodape() {
     <footer className={styles.rodape}>
       <div className={styles.logo_rodape}>
         <Link to="/"><GiCook style={{ fontSize: '60px', color: '#ffffff' }} /></Link>
-        <p className={styles.texto_todape}>Ristoranti</p>
+        <p className={styles.texto_todape}>Ristorante</p>
       </div>
     </footer>
   )
