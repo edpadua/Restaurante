@@ -1,7 +1,7 @@
 # Restaurante
 
 <h1>
-    <a href="https://restaurante-eta.vercel.app/"><img src="/Restaurante/public/restaurante-captura.gif"></a>
+    <a href="https://restaurante-eta.vercel.app/"><img src="restaurante/public/restaurante-capture.gif"></a>
 </h1>
 
 # Summary
