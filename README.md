@@ -27,7 +27,7 @@ This project is a responsive website for a restaurant. It is divided into sectio
 
 ### :iphone: Mobile design
 
-<img src="https://user-images.githubusercontent.com/4975360/233090787-ad6d05fe-3d5a-47ea-8805-aaabfe10b18a.png" style="width: 50%;">
+<img src="https://user-images.githubusercontent.com/4975360/235657640-4e846e3c-8213-4943-97e8-2d2b82c24367.jpg" style="width: 50%;">
 
 
 ### [🌐 Demo](restaurante-eta.vercel.app)
